@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <title>Color Picker Game</title>
+</head>
+<body>
+<h1>
+  <span id="resultDisplay" class="animated fadeIn ">Can you guess this color ?</span>
+  <span id="colorDisplay" class="animated fadeIn">RGB</span> 
+</h1>
+
+  <div id="stripe">
+    <button id="reset" class="animated fadeIn newCol">New Colors</button>
+    <button class="mode animated fadeIn easy">Easy</button>
+    <button class="mode selected animated fadeIn hard">Hard</button>
+  </div>
+
+  <div id="container">
+      <div class="shape one animated zoomIn"></div>
+      <div class="shape two animated zoomIn"></div>
+      <div class="shape three animated zoomIn"></div>
+      <div class="shape four animated zoomIn"></div>
+      <div class="shape five animated zoomIn"></div>
+      <div class="shape six animated zoomIn"></div>
+      <div class="shape seven animated zoomIn"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
